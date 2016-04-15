@@ -1,0 +1,11 @@
+str = "abcdefghij"
+print str[::-1] #逆順
+print str[-1:-4:-1] #一番後ろから、後ろから3番目の要素まで、逆順に
+print str[0:6:2] #0番目から、5番目まで、2つおきに
+
+"""
+実行結果
+jihgfedcba
+jih
+ace
+"""
